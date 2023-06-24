@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context="play.nubsauce.pooldrool.ThirdFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="349dp"
+            android:layout_height="322dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="left"
+            android:text="Your head should be neutral and looking straight down, and your hips should be high, near the surface of the water. Engage the Early Vertical Forearm and pull straight down. When kicking in butterfly, your legs are together and you’ll complete 2 kicks per 1 arm cycle. The first kick helps to propel your arms out of the water, and the second keeps you moving forward while you initiate your catch. Each kick has an up and down motion.  "
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.109" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView"
+            android:layout_width="395dp"
+            android:layout_height="299dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:src="@drawable/butterfly"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.356" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="187dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Butterfly"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.252" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView2"
+            android:layout_width="395dp"
+            android:layout_height="299dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:src="@drawable/freestyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.537"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="367dp"
+            android:layout_height="237dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="left"
+            android:text="Have a neutral head position with your eyes focused down so your hips will naturally lift up, making it much easier to kick. Keep hands relaxed with a few millimeters of space between each finger. Bend your arm down at the elbow. Pull straight down along the side of your body toward your hips. Keep kicks short and fast from the hips. "
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.002" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="202dp"
+            android:layout_height="64dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Freestyle"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Backstroke"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView5"
+            android:layout_width="395dp"
+            android:layout_height="299dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/backstrokeb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="361dp"
+            android:layout_height="260dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="left"
+            android:text="Keep head and hips in alignment and as high in the water as possible. Maintain head as still as possible, looking straight up. The backstroke pull begins with your hand exiting the water thumb-first. Pinky-first entry is key to setting up a proper Early Vertical Forearm catch. From this point, the pull will feel similar to a high-elbow freestyle pull. Kick short and fast with your toes pointed "
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Breaststroke"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView6"
+            android:layout_width="395dp"
+            android:layout_height="299dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="1000dp"
+            android:src="@drawable/breaststroketrue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Flip turn"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView7"
+            android:layout_width="395dp"
+            android:layout_height="299dp"
+            android:layout_marginTop="38dp"
+            android:src="@drawable/bucketturn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="332dp"
+            android:layout_height="349dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="left"
+            android:text="Take your last  stroke above or slightly after the “T” on the bottom of the pool with one hand pulled at your hip and the other pulling you toward the wall. As that stroking hand reaches your hip, tuck your chin to your chest and flip your feet over the water toward the wall. Use your core muscles, which are much larger, to help you flip quickly. Push off strong while making yourself  narrow with a tight streamline. Rotate while kicking underwater."
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:layout_constraintVertical_bias="0.139" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="338dp"
+            android:layout_height="410dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="left"
+            android:text="The streamline is essential for breaststroke. The quicker you can get to your streamline position, the more efficient your stroke will be. It’s important to keep your hips up at all times to reduce drag, especially when you lift your head up to breathe. Pull your hands just wider than your shoulders then pull down with a strong Early Vertical Forearm to catch the water. Pull your heels up to your butt and kick your legs out without spreading knees too wide. A wide kick creates more resistance. Sweep your legs around. "
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+    </ScrollView>
+

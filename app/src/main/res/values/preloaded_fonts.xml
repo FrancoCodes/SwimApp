@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/archivo_black</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/candal</item>
+        <item>@font/convergence</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/krona_one</item>
+        <item>@font/limelight</item>
+        <item>@font/metal_mania</item>
+        <item>@font/monoton</item>
+        <item>@font/montserrat</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/supermercado_one</item>
+    </array>
+</resources>
